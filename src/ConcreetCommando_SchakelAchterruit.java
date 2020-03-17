@@ -8,7 +8,7 @@ public class ConcreetCommando_SchakelAchterruit implements Commando {
 	}
 
 	@Override // Command
-	public void uitvoeren() {
+	public void schakelen() {
 		auto.achterruit();
 	}
 }

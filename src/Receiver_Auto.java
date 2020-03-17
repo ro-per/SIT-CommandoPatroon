@@ -1,10 +1,14 @@
 /* RECEIVER CLASS */
 public class Receiver_Auto {
+	private String versnelling = "neutraal";
+
 	public void voorruit() {
-		System.out.println("De auto is in voorruit geschakeld");
+		versnelling = "De auto is in voorruit geschakeld";
+		System.out.println(versnelling);
 	}
 
 	public void achterruit() {
-		System.out.println("De auto is in achterruit geschakeld");
+		versnelling = "De auto is in achterruit geschakeld";
+		System.out.println(versnelling);
 	}
 }

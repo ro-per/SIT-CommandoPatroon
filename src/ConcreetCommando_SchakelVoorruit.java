@@ -7,7 +7,7 @@ public class ConcreetCommando_SchakelVoorruit implements Commando {
 	}
 
 	@Override // Command
-	public void uitvoeren() {
+	public void schakelen() {
 		auto.voorruit();
 	}
 }

@@ -7,6 +7,6 @@ public class Invoker_Versnellingsbak {
 
 	public void schakel(Commando commando) {
 		geschiedenis.add(commando);
-		commando.uitvoeren();
+		commando.schakelen();
 	}
 }

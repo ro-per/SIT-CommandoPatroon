@@ -8,8 +8,8 @@ public class Client_Persoon {
 		Commando achteruit = new ConcreetCommando_SchakelAchterruit(auto);
 
 		// INVOKER CLASS
-		Invoker_Versnellingsbak versnelling = new Invoker_Versnellingsbak();
-		versnelling.schakel(voorruit);
-		versnelling.schakel(achteruit);
+		Invoker_Versnellingsbak versnellingsbak = new Invoker_Versnellingsbak();
+		versnellingsbak.schakel(voorruit);
+		versnellingsbak.schakel(achteruit);
 	}
 }
