@@ -1,4 +1,4 @@
 /* COMMAND INTERFACE */
 public interface Commando {
-	void schakelen();
+	void uitvoeren();
 }
