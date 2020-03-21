@@ -11,6 +11,5 @@ public class Client_Persoon {
         Invoker_VersnellingsPook versnellingspook = new Invoker_VersnellingsPook();
         versnellingspook.schakel(voorruit);
         versnellingspook.schakel(achteruit);
-        //testjeeeeee
     }
 }
